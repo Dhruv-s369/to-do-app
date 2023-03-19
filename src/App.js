@@ -1,10 +1,12 @@
 import "./App.css";
-import Card from "./components/Card";
+import ToDoApp from "./components/ToDoApp";
+import ToDoForm from "./components/ToDoForm";
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <ToDoApp />
+      {/* <ToDoForm /> */}
     </div>
   );
 }
